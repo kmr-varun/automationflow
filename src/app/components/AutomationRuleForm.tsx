@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { Lead, AutomationRule } from '../type';
-import { getValueOptionsForColumn, getColumnOptions } from '../utils';
+import { Lead, AutomationRule } from '../models/type';
+import { getValueOptionsForColumn, getColumnOptions } from '../utils/utils';
 import {
   triggerOptions,
   stringConditions,
   dateConditions,
   timeOptions,
   numericConditions
-} from '../dropdownOptions';
+} from '../models/dropdownOptions';
 
 interface AutomationRuleFormProps {
   leads: Lead[];

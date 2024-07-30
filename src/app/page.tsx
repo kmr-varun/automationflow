@@ -3,8 +3,8 @@
 import React, { useState, useEffect } from 'react';
 import AutomationRuleForm from './components/AutomationRuleForm';
 import LeadList from './components/LeadList';
-import { Lead, AutomationRule } from './type';
-import { leads } from './data';
+import { Lead, AutomationRule } from './models/type';
+import { leads } from './models/data';
 
 const App: React.FC = () => {
   const [leadData, setLeadData] = useState<Lead[]>(leads);
@@ -38,7 +38,6 @@ const App: React.FC = () => {
       case 'SEND_EMAIL':
         console.log(`Sending email for lead ID ${leadId}`);
         break;
-      // Implement other action types
     }
   };
 

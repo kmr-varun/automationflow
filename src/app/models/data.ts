@@ -24,7 +24,7 @@ export const leads: Lead[] = [
     leadScore: 85,
     lastContacted: "2024-07-29T09:00:00Z",
     contactMethod: "email",
-    salesAmount: 120000 // New field
+    salesAmount: 120000
   },
   {
     id: 2,
@@ -48,7 +48,7 @@ export const leads: Lead[] = [
     leadScore: 90,
     lastContacted: "2024-07-28T12:00:00Z",
     contactMethod: "phone",
-    salesAmount: 250000 // New field
+    salesAmount: 250000
   },
   {
     id: 3,
@@ -72,7 +72,7 @@ export const leads: Lead[] = [
     leadScore: 75,
     lastContacted: "2024-07-24T15:00:00Z",
     contactMethod: "email",
-    salesAmount: 75000 // New field
+    salesAmount: 75000
   },
   {
     id: 4,
@@ -96,7 +96,7 @@ export const leads: Lead[] = [
     leadScore: 60,
     lastContacted: "2024-07-19T16:00:00Z",
     contactMethod: "phone",
-    salesAmount: 95000 // New field
+    salesAmount: 95000
   },
   {
     id: 5,
@@ -120,6 +120,6 @@ export const leads: Lead[] = [
     leadScore: 95,
     lastContacted: "2024-07-28T10:00:00Z",
     contactMethod: "email",
-    salesAmount: 50000 // New field
+    salesAmount: 50000
   }
 ];

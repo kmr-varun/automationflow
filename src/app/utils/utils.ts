@@ -1,4 +1,4 @@
-import { Lead } from './type';
+import { Lead } from '../models/type';
 
 export const getColumnOptions = (): { value: string; label: string }[] => [
   { value: 'status', label: 'Status' },
@@ -9,7 +9,6 @@ export const getColumnOptions = (): { value: string; label: string }[] => [
   { value: 'annualRevenue', label: 'Annual Revenue' },
   { value: 'leadScore', label: 'Lead Score' },
   { value: 'lastContacted', label: 'Last Contacted' },
-  // Add other columns if needed
 ];
 
 export const getValueOptionsForColumn = (leads: Lead[], column: string): { value: string; label: string }[] => {

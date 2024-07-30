@@ -1,5 +1,4 @@
 // type.ts
-// type.ts
 export interface Lead {
     id: number;
     firstName: string;

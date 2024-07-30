@@ -25,14 +25,12 @@ export const columnOptions = [
 
 export const conditionOptions = [
   { value: 'changes', label: 'Changes to' },
-  // Add more conditions if needed
 ];
 
 export const triggerOptions = [
   
   { value: 'when', label: 'When' },
   { value: 'created', label: 'Item Created' },
-  // Add more triggers if needed
 ];
 
 export const stringConditions = [
